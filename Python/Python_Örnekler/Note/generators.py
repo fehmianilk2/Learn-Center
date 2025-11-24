@@ -17,4 +17,4 @@ generator=cube()
 iterator=iter(generator)
 for i in range(101):
     print(next(iterator))
-# print(next(iterator)) StopIteration hatası verir çünkü üretecek veri kalmadı.
+
