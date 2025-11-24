@@ -7,5 +7,5 @@ result=os.name
 # os.makedirs("x/y") -İç içe klasörler oluşturur
 # os.rmdir()         -Klasör silme
 os.listdir() #Dosyanın içeriğini listeler
-
+#https://docs.python.org/3/library/os.html   Daha fazla işlem için
 print(result)

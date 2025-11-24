@@ -8,5 +8,6 @@ result=datetime.strftime(datetime.now(),"%A") #Haftanın günü
 result=datetime.strftime(datetime.now(),"%B") #Ay bilgisi
 t1="21 April 2023 hour 10:12:30"
 dt=datetime.strptime(t1,"%d %B %Y hour %H:%M:%S") #String ifadeyi datetime objesine çevirir.
+#https://docs.python.org/3/library/datetime.html   daha fazlası için
 
 print (result)
